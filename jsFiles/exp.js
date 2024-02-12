@@ -30,7 +30,28 @@ const exp = (function() {
 
             `<div class='parent'>
                 <p>Throughout Spin the Wheel, you'll answer questions about your feelings.</p>
+                <p>Specifically, you'll report how <b>immersed</b>, <b>aroused</b>, and <b>positive or negative</b> you feel after spinning each wheel.</p>
+                <p>To learn more, continue to the next screen.</p>
+            </div>`,
+
+            `<div class='parent'>
+                <p><b>Positivity</b> has to do with how good, or pleasant, you feel. <b>Negativity</b> has to do with how bad, or unpleasant, you feel.</p>
+                <p>We will ask you how positive or negative you feel after spinning each wheel.</p>
             </div>`,      
+
+            `<div class='parent'>
+                <p><b>Arousal</b> has to do with how energized or activated a person feels, independent of positivity/negativity.</p>
+                <p>The lowest level of arousal corresponds to feelings of sleepiness and extreme calm; the highest level of arousal corresponds to feelings of manic energy and extreme stimulation.</p>
+                <p>People can experience anything from complete calm to extreme arousal regardless of how positive or negative they feel.</p>
+                <p>We will ask you how aroused you feel after spinning each wheel.</p>
+            </div>`,
+
+            `<div class='parent'>
+                <p><b>Immersion</b> has to do with how absorbed or "in the zone" a person feels, independent of arousal and positivity/negativity.
+                <p>At the lowest level of immersion, people feel totally disconnected and "zoned out" from what they're doing; at the highest level of immersion, people get so "lost" in what they're doing that time seems to stop and everything but their task seems to melt away.</p>
+                <p>People can experience anything from complete immersion to no immersion at all regardless of whether they feel positive or negative, aroused or calm.</p>
+                <p>After spinning each wheel, we will you how <b>immersed</b> you felt in what you were doing.</p>
+            </div>`,
 
             `<div class='parent'>
                 <p>You're ready to start playing Spin the Wheel!</p>
