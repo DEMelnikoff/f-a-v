@@ -188,7 +188,9 @@ const exp = (function() {
     const valenceMeasure = {
         type: jsPsychSurveyLikert,
         questions: [
-            {prompt: `<p>While spinning the last wheel, how <b>positive or negative</b> did you feel?</p>`,
+            {prompt: `<p>While spinning the last wheel, how <b>positive or negative</b> did you feel?</p>
+            <p>Positivity has to do with how good, or pleasant, a person feels. Conversely, <b>negativity</b> has to do with how bad, or unpleasant, a person feels.</p>
+            <p>Please report how <b>positive or negative</b> you felt while spinning the last wheel.</p>`,
             name: `valence`,
             labels: ['-4<br>Extremely negative', '-3', '-2', '-1', '0<br>Neither positive nor negative', '1', '2', '3', '4<br>Extremely positive']},
         ],
