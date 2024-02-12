@@ -37,14 +37,14 @@ const exp = (function() {
             `<div class='parent' style="text-align: left">
                 <p><b>Positivity</b> has to do with how good, or pleasant, a person feels.
                 Conversely, <b>negativity</b> has to do with how bad, or unpleasant, a person feels.</p>
-                <p>After spinning each wheel, we'll ask you how positive or negative you feel.</p>
+                <p>After spinning each wheel, we'll ask you how <b>positive or negative</b> you feel.</p>
             </div>`,      
 
             `<div class='parent' style="text-align: left">
                 <p><b>Arousal</b> has to do with how energized or activated a person feels, independent of positivity/negativity.</p>
                 <p>The lowest level of arousal corresponds to feelings of sleepiness and extreme calm; the highest level of arousal corresponds to feelings of manic energy and extreme stimulation.
                 People can experience anything from complete calm to extreme arousal regardless of how positive or negative they feel.</p>
-                <p>After spinning each wheel, we'll ask you how aroused you feel.</p>
+                <p>After spinning each wheel, we'll ask you how <b>aroused</b> you feel.</p>
             </div>`,
 
             `<div class='parent' style="text-align: left">
