@@ -189,7 +189,7 @@ const exp = (function() {
         type: jsPsychSurveyLikert,
         questions: [
             {prompt: `<p>While spinning the last wheel, how <b>positive or negative</b> did you feel?</p>
-            <p>Positivity has to do with how good, or pleasant, a person feels. Conversely, <b>negativity</b> has to do with how bad, or unpleasant, a person feels.</p>
+            <p>Positivity has to do with how good, or pleasant, a person feels. Conversely, negativity has to do with how bad, or unpleasant, a person feels.</p>
             <p>Please report how <b>positive or negative</b> you felt while spinning the last wheel.</p>`,
             name: `valence`,
             labels: ['-4<br>Extremely negative', '-3', '-2', '-1', '0<br>Neither positive nor negative', '1', '2', '3', '4<br>Extremely positive']},
@@ -239,7 +239,7 @@ const exp = (function() {
             <p>Immersion has to do with how absorbed or "in the zone" a person feels, independent of arousal and positivity/negativity.
             At the lowest level of immersion, people feel totally disconnected and "zoned out" from what they're doing; at the highest level of immersion, people get so "lost" in what they're doing that time seems to stop and everything but their task seems to melt away. 
             People can experience anything from complete immersion to no immersion at all regardless of whether they feel positive or negative, aroused or calm.</p>
-            <p>Please report how <b>immersed</b> you felt spinning the last wheel.</p>`,
+            <p>Please report how <b>immersed</b> you felt in what you were doing while spinning the last wheel.</p>`,
             name: `flow`,
             labels: ['0<br>Not at all immersed', '1', '2', '3', '4', '5', '6', '7', '8<br>Completely immersed']},
         ],
