@@ -44,14 +44,14 @@ const exp = (function() {
                 <p><b>Arousal</b> has to do with how energized or activated a person feels, independent of positivity/negativity.</p>
                 <p>The lowest level of arousal corresponds to feelings of sleepiness and extreme calm; the highest level of arousal corresponds to feelings of manic energy and extreme stimulation.
                 People can experience anything from complete calm to extreme arousal regardless of how positive or negative they feel.</p>
-                <p>We will ask you how aroused you feel after spinning each wheel.</p>
+                <p>After each wheel, we'll ask you how aroused you feel.</p>
             </div>`,
 
             `<div class='parent' style="text-align: left">
                 <p><b>Immersion</b> has to do with how absorbed or "in the zone" a person feels, independent of arousal and positivity/negativity.
                 <p>At the lowest level of immersion, people feel totally disconnected and "zoned out" from what they're doing; at the highest level of immersion, people get so "lost" in what they're doing that time seems to stop and everything but their task seems to melt away.
                 People can experience anything from complete immersion to no immersion at all regardless of whether they feel positive or negative, aroused or calm.</p>
-                <p>After spinning each wheel, we will you how <b>immersed</b> you felt in what you were doing.</p>
+                <p>After spinning each wheel, we'll you how <b>immersed</b> you felt in what you were doing.</p>
             </div>`,
 
             `<div class='parent' style="text-align: left">
@@ -208,11 +208,12 @@ const exp = (function() {
     // trial: happiness DV
     const arousalMeasure = {
         type: jsPsychSurveyLikert,
-        preamble: `Arousal has to do with how energized or activated a person feels, independent of positivity/negativity.
-            The lowest level of arousal corresponds to feelings of sleepiness and extreme calm; the highest level of arousal corresponds to feelings of manic energy and extreme stimulation.
-            People can experience anything from complete calm to extreme arousal regardless of how positive or negative they feel.`,
         questions: [
-            {prompt: `<p>While spinning the last wheel, how <b>aroused</b> did you feel?</p>`,
+            {prompt: `<p>While spinning the last wheel, how <b>aroused</b> did you feel?</p>
+            <p>Arousal has to do with how energized or activated a person feels, independent of positivity/negativity.
+            The lowest level of arousal corresponds to feelings of sleepiness and extreme calm; the highest level of arousal corresponds to feelings of manic energy and extreme stimulation.
+            People can experience anything from complete calm to extreme arousal regardless of how positive or negative they feel.</p>
+            <p>Please report how <b>aroused</b> you felt while spinning the last wheel.</p>`,
             name: `arousal`,
             labels: ['-4<br>Extremely calm', '-3', '-2', '-1', '0<br>Neither calm not aroused', '1', '2', '3', '4<br>Extremely aroused']},
         ],
@@ -231,11 +232,12 @@ const exp = (function() {
 
      const flowMeasure = {
         type: jsPsychSurveyLikert,
-        preamble: `Immersion has to do with how absorbed or "in the zone" a person feels, independent of arousal and positivity/negativity.
-            At the lowest level of immersion, people feel totally disconnected and "zoned out" from what they're doing; at the highest level of immersion, people get so "lost" in what they're doing that time seems to stop and everything but their task seems to melt away. 
-            People can experience anything from complete immersion to no immersion at all regardless of whether they feel positive or negative, aroused or calm.`,
         questions: [
-            {prompt: `<p>While spinning the last wheel, how <b>immersed</b> did you feel in what you were doing?</p>`,
+            {prompt: `<p>While spinning the last wheel, how <b>immersed</b> did you feel in what you were doing?</p>
+            <p>Immersion has to do with how absorbed or "in the zone" a person feels, independent of arousal and positivity/negativity.
+            At the lowest level of immersion, people feel totally disconnected and "zoned out" from what they're doing; at the highest level of immersion, people get so "lost" in what they're doing that time seems to stop and everything but their task seems to melt away. 
+            People can experience anything from complete immersion to no immersion at all regardless of whether they feel positive or negative, aroused or calm.</p>
+            <p>Please report how <b>immersed</b> you felt in spinning the last wheel.</p>`,
             name: `flow`,
             labels: ['0<br>Not at all immersed', '1', '2', '3', '4', '5', '6', '7', '8<br>Completely immersed']},
         ],
