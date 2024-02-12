@@ -237,7 +237,7 @@ const exp = (function() {
             <p>Immersion has to do with how absorbed or "in the zone" a person feels, independent of arousal and positivity/negativity.
             At the lowest level of immersion, people feel totally disconnected and "zoned out" from what they're doing; at the highest level of immersion, people get so "lost" in what they're doing that time seems to stop and everything but their task seems to melt away. 
             People can experience anything from complete immersion to no immersion at all regardless of whether they feel positive or negative, aroused or calm.</p>
-            <p>Please report how <b>immersed</b> you felt in spinning the last wheel.</p>`,
+            <p>Please report how <b>immersed</b> you felt in the activity of spinning the last wheel.</p>`,
             name: `flow`,
             labels: ['0<br>Not at all immersed', '1', '2', '3', '4', '5', '6', '7', '8<br>Completely immersed']},
         ],
