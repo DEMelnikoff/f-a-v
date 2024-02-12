@@ -18,7 +18,7 @@ const exp = (function() {
                 <p><strong>Welcome to Spin the Wheel!</strong></p>
                 <p>In Spin the Wheel, you'll spin a series of prize wheels.</p>
                 <p>Each time you spin a prize wheel, you'll earn points.
-                <br>The number of points you earn depends on where the wheel lands.</p>
+                The number of points you earn depends on where the wheel lands.</p>
                 <p>Your goal is to earn as many points as possible by spinning the prize wheels!</p>
             </div>`,
 
@@ -35,9 +35,9 @@ const exp = (function() {
             </div>`,
 
             `<div class='parent' style="text-align: left">
-                <p><b>Positivity</b> has to do with how good, or pleasant, you feel.</p>
-                <p><b>Negativity</b> has to do with how bad, or unpleasant, you feel.</p>
-                <p>We will ask you how positive or negative you feel after spinning each wheel.</p>
+                <p><b>Positivity</b> has to do with how good, or pleasant, a person feels.
+                Conversely, <b>negativity</b> has to do with how bad, or unpleasant, a person feels.</p>
+                <p>After each wheel, we'll ask you how positive or negative you feel.</p>
             </div>`,      
 
             `<div class='parent' style="text-align: left">
