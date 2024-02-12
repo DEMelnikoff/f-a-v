@@ -30,12 +30,13 @@ const exp = (function() {
 
             `<div class='parent'>
                 <p>Throughout Spin the Wheel, you'll answer questions about your feelings.</p>
-                <p>Specifically, you'll report how <b>immersed</b>, <b>aroused</b>, and <b>positive or negative</b> you feel after spinning each wheel.</p>
-                <p>To learn more, continue to the next screen.</p>
+                <p>Specifically, you'll report how <b>immersed</b>, <b>aroused</b>, and <b>positive or negative</b> you feel after spinning each wheel.
+                To learn more, continue to the next screen.</p>
             </div>`,
 
             `<div class='parent'>
-                <p><b>Positivity</b> has to do with how good, or pleasant, you feel. <b>Negativity</b> has to do with how bad, or unpleasant, you feel.</p>
+                <p><b>Positivity</b> has to do with how good, or pleasant, you feel.</p>
+                <p><b>Negativity</b> has to do with how bad, or unpleasant, you feel.</p>
                 <p>We will ask you how positive or negative you feel after spinning each wheel.</p>
             </div>`,      
 
